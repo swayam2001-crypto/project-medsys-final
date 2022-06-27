@@ -1,8 +1,8 @@
 "react-router-dom";
 
-import AboutUs from "./components/AboutUs";
+import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>

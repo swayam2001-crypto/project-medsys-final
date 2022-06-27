@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay} from "swiper";
-import Footer from './Footer';
+import Footer from './footer/Footer';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';

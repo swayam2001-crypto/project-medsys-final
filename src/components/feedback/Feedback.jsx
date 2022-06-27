@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Modal, ModalHeader, ModalBody, Row, Col } from "reactstrap";
 import { FaStar } from "react-icons/fa";
-import Rate from "./Rate";
+import Rate from "../Rate";
 
 const Feedback = ({ setModalOn }) => {
   const handleXClick = () => {

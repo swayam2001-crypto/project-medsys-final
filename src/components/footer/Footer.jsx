@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Feedback from "./Feedback";
-import AboutUs from "./AboutUs";
+import Feedback from "../feedback/Feedback";
+import AboutUs from "../aboutUs/AboutUs";
 export default function Footer() {
   
 

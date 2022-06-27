@@ -9,7 +9,7 @@ import img5 from "./Reinforce_action_plans.png";
 import img6 from "./Access_current_performance.png";
 import whoimg from "./4.png";
 import whymedsys from "./5.png";
-import Footer from "./Footer";
+import Footer from "../footer/Footer";
 import caption from "./Caption.png";
 import vision from "./1.png";
 import mission from "./2.png";
