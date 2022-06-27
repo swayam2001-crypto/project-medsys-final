@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Feedback from "../feedback/Feedback";
-import AboutUs from "../aboutUs/AboutUs";
 export default function Footer() {
   
 
@@ -10,6 +9,8 @@ export default function Footer() {
   const clicked = () => {
     setModalOn(true)
   }
+
+  var date=new Date().getFullYear();
 
   return (
     <>
@@ -28,7 +29,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/contact" className="text-white">
-                  Contact US
+                  Contact Us
                 </Link>
               </li>
               <li>
@@ -68,17 +69,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div class="footer_menu">
-            <h2>TERMS AND POLICY</h2>
+          <div className="footer_menu w-3/4 sm:w-1/2 lg:w-1/5">
+            <h2>QUICK LINKS</h2>
             <ul>
               <li>
                 <Link to="/terms&conditions" className="text-white">
-                  Terms and Conditions
+                  Our Process
                 </Link>
               </li>
               <li>
                 <Link to="/privacypolicy" className="text-white">
-                  Privacy Policy
+                  Blog
                 </Link>
               </li>
               <li>
@@ -88,7 +89,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div class="footer_menu">
+          <div className="footer_menu">
             <h2>CONNECT WITH US</h2>
             <ul>
               <li>
@@ -116,7 +117,7 @@ export default function Footer() {
         </div>
         <div class="footer_botton">
           <h3>OUR OFFICE</h3>
-          <ul>
+          <ul className="flex gap-2 justify-center">
             <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
               <i class="lni lni-facebook"></i>
             </Link>
@@ -130,41 +131,62 @@ export default function Footer() {
               <i class="lni lni-linkedin"></i>
             </Link>
           </ul>
-          <h5>
-            <i class="lni lni-map-marker"></i>Mumbai
-            <i class="lni lni-map-marker"></i>Navi-Mumbai
-            <i class="lni lni-map-marker"></i>Pune
-            <i class="lni lni-map-marker"></i>Nashik
-            <i class="lni lni-map-marker"></i>Delhi
-            <i class="lni lni-map-marker"></i>Noida
-          </h5>
-          <div class="footer-bottom-last">
-            <div class="inner d-flex">
-              <i class="lni lni-thumbs-up"></i>
-              <h4>
-                ASSURED CUSTOMER <br /> SATISFACTION
-              </h4>
+          <div className="flex flex-row gap-4 justify-center p-2 w-4/5 mx-auto">
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Mumbai</h1></div>
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Navi-Mumbai</h1></div>
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Pune</h1></div>
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Nashik</h1></div>
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Delhi</h1></div>
+            <div className="py-2"><i class="lni lni-map-marker text-2xl"></i><h1>Noida</h1></div>
+          </div>
+          <div class="grid grid-cols-2 sm:flex justify-center mx-auto">
+            <div class="flex gap-1 px-2 py-5">
+              <i class="lni lni-thumbs-up text-4xl my-auto"></i>
+              <h1 className="text-sm my-auto">
+                ASSURED CUSTOMER SATISFACTION
+              </h1>
             </div>
-            <div class="inner d-flex">
-              <i class="lni lni-lock-alt"></i>
-              <h4>
-                CLIENT DATA <br /> CONFIDENTIALITY
-              </h4>
+            <div class="flex gap-1 px-2 py-5">
+              <i class="lni lni-lock-alt text-4xl my-auto"></i>
+              <h1 className="text-sm my-auto">
+                CLIENT DATA CONFIDENTIALITY
+              </h1>
             </div>
-            <div class="inner d-flex">
-              <i class="lni lni-paypal"></i>
-              <h4>
-                NO HIDDEN <br /> FEE
-              </h4>
+            <div class="flex gap-1 px-2 py-5">
+              <i class="lni lni-paypal text-4xl my-auto"></i>
+              <h1 className="text-sm my-auto">
+                NO HIDDEN FEE
+              </h1>
             </div>
-            <div class="inner d-flex">
-              <i class="lni lni-comments-reply"></i>
-              <h4>
-                SECURE ONLINE <br /> PAYMENT
-              </h4>
+            <div class="flex gap-1 px-2 py-5">
+              <i class="lni lni-comments-reply text-4xl my-auto"></i>
+              <h1 className="text-sm my-auto">
+                SECURE ONLINE PAYMENT
+              </h1>
             </div>
           </div>
+          <div className="flex gap-6 justify-center p-5">
+              <div>
+                <Link to="/terms&conditions" className="text-rose-200">
+                  Terms and Conditions
+                </Link>
+              </div>
+              <div>
+                <Link to="/privacypolicy" className="text-rose-200">
+                  Privacy Policy
+                </Link>
+              </div>
+              <div>
+                <Link to="/refundpolicy" className="text-rose-200">
+                  Refund Policy
+                </Link>
+              </div>
+            </div>
+          <div className="p-5 bg-[#25050c] "><h1 className="tracking-widest uppercase text-[#af999e]">ⓒ 2017-{date} Medsys Consultancy India</h1></div>
         </div>
+
+        
+
         {modalOn && < Feedback setModalOn={setModalOn}  />}
 
       </footer>

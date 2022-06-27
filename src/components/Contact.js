@@ -139,7 +139,7 @@ export default function Contact(props) {
                     </div>
                 </div>
                 <div className="contact-social-links">
-                    <button className="inner call">
+                    <button className="inner call rounded-3xl">
                         <i className="lni lni-phone"></i>
                         <span>
                             <a href="tel:+918881069069">
@@ -147,7 +147,7 @@ export default function Contact(props) {
                             </a>
                         </span>
                     </button>
-                    <button className="inner facebook">
+                    <button className="inner facebook rounded-3xl">
                         <i className="lni lni-facebook-messenger"></i>
                         <span>
                             <a href="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
@@ -155,7 +155,7 @@ export default function Contact(props) {
                             </a>
                         </span>
                     </button>
-                    <button className="inner whatsapp">
+                    <button className="inner whatsapp rounded-3xl">
                         <i className="lni lni-whatsapp"></i>
                         <span>
                             <a href="https://wa.me/+917020438881">
@@ -163,7 +163,7 @@ export default function Contact(props) {
                             </a>
                         </span>
                     </button>
-                    <button className="inner email">
+                    <button className="inner email rounded-3xl">
                         <i className="lni lni-envelope"></i>
                         <span>
                             <a href="/">

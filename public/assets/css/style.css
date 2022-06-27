@@ -553,6 +553,7 @@ section.counter .inner div:nth-child(odd) h6 {
 }
 
 .footer_menu {
+    
     align-items: right;
     text-align: left;
 }

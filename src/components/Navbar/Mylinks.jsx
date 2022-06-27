@@ -120,24 +120,5 @@ export const links = [
       },
     ],
   },
-  {
-    name: "Digital Branding",
-    submenu: true,
-    sublinks: [
-      {
-          sublink: [
-          { name: "Branding", link: "/" },
-          { name: "Market Survey", link: "/" },
-          { name: "Market Research", link: "/" },
-          { name: "Social Media marketing", link: "/" },
-          { name: "Content Writing", link: "/" },
-          { name: "Web Development", link: "/" },
-          { name: "App Development", link: "/" },
-          { name: "SEO Consulting", link: "/" },
-          { name: "Graphic Designing", link: "/" },
-          { name: "Product Design", link: "/" },
-        ],
-      },
-    ],
-  },
+  
 ];

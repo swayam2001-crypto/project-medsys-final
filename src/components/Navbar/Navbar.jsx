@@ -28,6 +28,11 @@ const Navbar = () => {
           <NavLinks />
           <li>
             <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+              Marketing Solutions
+            </a>
+          </li>
+          <li>
+            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
               Contact Us
             </a>
           </li>
@@ -55,10 +60,15 @@ const Navbar = () => {
           <NavLinks />
           <li>
             <a to="/" className="p-7 inline-block uppercase font-semibold">
+              Marketing Solution
+            </a>
+          </li>
+          <li>
+            <a to="/" className="p-7 inline-block uppercase font-semibold">
               Contact Us
             </a>
           </li>
-          <div className="py-5">
+          <div className="p-5">
           <Log />
         </div>
         </ul>
