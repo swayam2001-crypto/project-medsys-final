@@ -6,7 +6,7 @@ import Log from "./Log"
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-[#560216]">
+    <nav className="bg-[#560216] md:sticky md:top-0">
       <div className="flex items-center font-normal text-rose-50 justify-around">
         <div className="z-50 p-2 md:w-auto w-full flex justify-between">
           <img src={Logo} className="md:cursor-pointer h-12" />
@@ -38,23 +38,23 @@ const Navbar = () => {
         {/* Mobile*/}
         <ul
           className={`
-            md:hidden bg-[#560216] absolute w-full h-full bottom-0 py-24 pl-4
+            md:hidden bg-[#560217] bottom-0 absolute w-full h-full py-24 
             duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
           <li>
-            <a to="/" className="py-7 px-3 inline-block">
+            <a to="/" className="p-7 inline-block uppercase font-semibold">
               Home
             </a>
           </li>
           <li>
-            <a to="/" className="py-7 px-3 inline-block">
+            <a to="/" className="p-7 inline-block uppercase font-semibold">
               About Us
             </a>
           </li>
           <NavLinks />
           <li>
-            <a to="/" className="py-7 px-3 inline-block">
+            <a to="/" className="p-7 inline-block uppercase font-semibold">
               Contact Us
             </a>
           </li>

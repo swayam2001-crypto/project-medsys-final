@@ -9,9 +9,9 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer hover:bg-rose-900 group">
+          <div className=" text-left md:cursor-pointer hover:bg-rose-900 group">
           <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group uppercase font-semibold"
+              className=" flex justify-between items-center p-7 sm:px-3 group uppercase font-semibold"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
