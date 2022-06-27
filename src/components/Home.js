@@ -36,7 +36,7 @@ export default function Home() {
             </section>
             {/* <!-- =================popular-products====================== --> */}
             <section className="container popular-products">
-                <h1 className="section-heading">Popular products</h1>
+                <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">Popular products</h1>
                 <div className="wrapper">
                     <div className="item">
                         <div><img src="/assets/img/Business Setup.svg" alt="" /></div>
@@ -89,7 +89,7 @@ export default function Home() {
             </section>
             {/* <!-- =================Work====================== --> */}
             <section className="work container">
-                <h1 className="section-heading">How we work?</h1>
+                <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">How we work?</h1>
                 <div className="wrapper">
                     <div className="item">
                         <h5>Fill the form</h5>
