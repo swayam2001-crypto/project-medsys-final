@@ -173,7 +173,6 @@ export default function Contact(props) {
                     </button>
                 </div>
             </section>
-            <Footer />
         </>
     )
 }

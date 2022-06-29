@@ -1,5 +1,6 @@
 "react-router-dom";
 
+import Footer from "./components/footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </>
