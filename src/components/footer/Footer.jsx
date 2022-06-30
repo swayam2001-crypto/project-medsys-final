@@ -67,7 +67,9 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer_menu">
-            <h2 className="flex">QUICK LINKS<div className="text-[#56021600]">........</div></h2>
+            <h2 className="flex">
+              QUICK LINKS<div className="text-[#56021600]">........</div>
+            </h2>
             <ul>
               <li>
                 <Link to="/terms&conditions" className="text-white">
@@ -158,46 +160,46 @@ export default function Footer() {
               <h1 className="text-sm my-auto">SECURE ONLINE PAYMENT</h1>
             </div>
           </div>
-          
 
-          <div className="flex p-5 bg-[#25050c] ">
+          <div className="grid p-3 bg-[#25050c] ">
             <div className="flex mx-auto gap-7">
-            <h1 className="tracking-widest uppercase my-auto text-[#af999e]">
-              ⓒ 2017-{date} Medsys Consultancy India
-            </h1>
-            <div className="flex my-auto gap-6">
-            <div>
-              <Link to="/terms&conditions" className="text-rose-200">
-                Terms and Conditions
-              </Link>
+              <h1 className="tracking-wider uppercase my-auto text-[#af999e]">
+                ⓒ 2017-{date} Medsys Consultancy Services LLP
+              </h1>
+              <div className="sm:flex py-3 my-auto uppercase gap-4">
+                <div className="py-3">
+                  <Link to="/terms&conditions" className="text-rose-200">
+                    Terms and Conditions
+                  </Link>
+                </div>
+                <div className="py-3">
+                  <Link to="/privacypolicy" className="text-rose-200">
+                    Privacy Policy
+                  </Link>
+                </div>
+                <div className="py-3">
+                  <Link to="/refundpolicy" className="text-rose-200">
+                    Refund Policy
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div>
-              <Link to="/privacypolicy" className="text-rose-200">
-                Privacy Policy
-              </Link>
-            </div>
-            <div>
-              <Link to="/refundpolicy" className="text-rose-200">
-                Refund Policy
-              </Link>
-            </div>
+            <div className=" gap-2">
+            <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
+              <i class="lni lni-facebook"></i>
+            </Link>
+            <Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk ">
+              <i class="lni lni-twitter"></i>
+            </Link>
+            <Link to="https://www.instagram.com/medsysconsultancy/">
+              <i class="lni lni-instagram"></i>
+            </Link>
+            <Link to="https://www.linkedin.com/company/30242565/admin/  ">
+              <i class="lni lni-linkedin"></i>
+            </Link>
           </div>
-            </div>
-            <ul className="flex ml-auto gap-2">
-              <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
-                <i class="lni lni-facebook"></i>
-              </Link>
-              <Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk ">
-                <i class="lni lni-twitter"></i>
-              </Link>
-              <Link to="https://www.instagram.com/medsysconsultancy/">
-                <i class="lni lni-instagram"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/company/30242565/admin/  ">
-                <i class="lni lni-linkedin"></i>
-              </Link>
-            </ul>
           </div>
+          
         </div>
 
         {modalOn && <Feedback setModalOn={setModalOn} />}
