@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Logo from "./mainLogo.png";
 import NavLinks from "./NavLinks";
-import Log from "./Log"
+import Log from "./Log";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,25 +17,25 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden text-sm items-center gap-2 ">
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/" className="py-7 px-3 inline-block uppercase font-semibold">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/AboutUs" className="py-7 px-3 inline-block uppercase font-semibold">
               About Us
-            </a>
+            </Link>
           </li>
           <NavLinks />
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/marketingSolutions" className="py-7 px-3 inline-block uppercase font-semibold">
               Marketing Solutions
-            </a>
+            </Link>
           </li>
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/contact" className="py-7 px-3 inline-block uppercase font-semibold">
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="md:block hidden">

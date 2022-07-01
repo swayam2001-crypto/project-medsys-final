@@ -9,7 +9,6 @@ import img5 from "./Reinforce_action_plans.png";
 import img6 from "./Access_current_performance.png";
 import whoimg from "./4.png";
 import whymedsys from "./5.png";
-import Footer from "../footer/Footer";
 import caption from "./Caption.png";
 import vision from "./1.png";
 import mission from "./2.png";
@@ -385,31 +384,21 @@ function App() {
           </div>
           {/* <div className=" m-3 py-2 text-5xl text-white"> */}
           <div className="ml-3 mt-7">
-          <ImQuotesLeft className="text-center text-5xl text-white" />
+            <ImQuotesLeft className="text-center text-5xl text-white" />
           </div>
-          
+
           {/* </div> */}
           <div className="flex justify-center ml-3 py-3">
             <p className="flex justify-center text-white text-lg sm:text-xl sm:w-4/5 leading-7">
-              India currently houses the world’s third-largest start-up
-              ecosystem, with over 50 firms being valued at over USD 1 billion,
-              or what is known as Unicorns. Talented entrepreneurs are prepared
-              to step up and develop the next disruptive technologies as the
-              cycle of invention quickens. The Medsys Consultancy Service, a
-              Private Enterprise, understands the importance of entrepreneurs
-              working to transform new ideas into thriving companies. Founders
-              face considerable challenges as they work to bring new ideas to
-              the marketplace while taking incremental leadership
-              responsibilities. Raising capital, finding talent, acquiring
-              customers, complying with regulatory requirements, and other
-              management initiatives take time and are important to maximize
-              business success. We are delighted to share highlights from our
-              experience including operational, financial, tax, accounting
-              matters, and other business considerations. Currently, we are
-              dedicated to helping start-up businesses all over India and aspire
-              to be an insightful and practical resource for them. We welcome
-              you to know us better and look forward to the opportunity to
-              assist in your business strategies.
+              He is an entrepreneur, business consultant and Founder of Medsys
+              Consultancy Services LLP looking after the Business and Marketing
+              aspects of the firm. Also, he is the founder of Medlife Pharma
+              Healthcare Private Limited and Medlife Foundation. He aims at
+              supporting startups on strategic projects, develop, build and
+              strengthen their organisational capabilities, generate innovative
+              ideas and projects and help in improving organizational efficiency
+              and effectiveness through his Sales and Marketing industry
+              expertise.
             </p>
           </div>
           {/* <div className="w-full h-full m-3 py-4 text-5xl text-white content-end"> */}
@@ -439,7 +428,6 @@ function App() {
           ></div>
         </div>
       </div>
-      
     </div>
   );
 }

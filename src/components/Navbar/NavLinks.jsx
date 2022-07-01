@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-
 import { links } from "./Mylinks";
+import { Link } from "react-router-dom";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
@@ -31,9 +31,9 @@ const NavLinks = () => {
                         </h1>
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-rose-200 my-2">
-                            <a to="/" className="hover:text-rose-50">
+                            <Link to="/" className="hover:text-rose-50">
                               {slink.name}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </div>
@@ -59,7 +59,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 flex justify-between items-center md:pr-0 pr-5"
                   >
                     {slinks.Head}
 
@@ -80,7 +80,7 @@ const NavLinks = () => {
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
-                        <a to={slink.link}>{slink.name}</a>
+                        <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}
                   </div>
