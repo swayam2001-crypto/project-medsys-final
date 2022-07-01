@@ -6,8 +6,8 @@ import Log from "./Log"
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-[#560216] md:sticky md:top-0">
-      <div className="flex items-center font-normal text-rose-50 justify-around">
+    <nav className="bg-[#560215] md:sticky md:top-0 z-50">
+      <div className="flex items-center font-normal text-rose-50 justify-around ">
         <div className="z-50 p-2 md:w-auto w-full flex justify-between">
           <img src={Logo} className="md:cursor-pointer h-12" />
           <div className="text-3xl md:hidden mt-3" onClick={() => setOpen(!open)}>
@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* Mobile*/}
         <ul
           className={`
-            md:hidden bg-[#560217] bottom-0 absolute w-full h-full py-24 
+            md:hidden bg-[#560217] bottom-0 absolute w-full h-full z-30 py-24 
             duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
