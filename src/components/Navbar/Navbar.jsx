@@ -17,23 +17,23 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden text-sm items-center gap-2 ">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/AboutUs" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/AboutUs" className="pr-2 px-3 inline-block uppercase font-semibold">
               About Us
             </Link>
           </li>
           <NavLinks />
           <li>
-            <Link to="/marketingSolutions" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/marketingSolutions" className="pr-2 px-3 inline-block uppercase font-semibold">
               Marketing Solutions
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block uppercase font-semibold">
+            <Link to="/contact" className="pr-2 px-3 inline-block uppercase font-semibold">
               Contact Us
             </Link>
           </li>

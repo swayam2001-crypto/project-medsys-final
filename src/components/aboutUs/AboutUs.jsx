@@ -122,7 +122,7 @@ function App() {
             <div className="bg-[#560216] w-1/4 h-1.5"></div>
           </div>
 
-          <div className="flex items-center justify-center sm:w-3/4 mx-auto">
+          <div className="flex items-center justify-center sm:w-1/2 mx-auto">
             <p className="text-xl text-rose-900 items-center text-center font-semibold">
               Consultancy Services is a social organization aiming at
               sustainability, performing well, and creating social change.
@@ -144,18 +144,18 @@ function App() {
       <div className="bg-[#560216] py-9 px-3">
         <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center mb-16 ">
-            <h2 className="text-5xl text-white font-bold">Our Vision</h2>
-            <div className="bg-white w-1/2 h-1.5"></div>
+            <h2 className="text-5xl text-rose-100 font-bold">Our Vision</h2>
+            <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div>
           </div>
         </div>
 
         <div className="flex items-center justify-center">
           <div>
             <div
-              className="w-60 h-60 bg-no-repeat mx-auto"
+              className="w-36 h-36 bg-no-repeat mx-auto"
               style={OurVision}
             ></div>
-            <p className="text-xl text-white items-center text-center sm:w-3/5 font-medium mx-auto mt-5">
+            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5">
               We provide innovative, quality-driven services to our clients to
               improve, optimize their performance and support them to scale up
               their solutions to address the complex challenges of surviving in
@@ -166,18 +166,18 @@ function App() {
 
         <div className="flex items-center justify-center mt-11">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
-            <h2 className="text-5xl text-white font-bold">Our Mission</h2>
-            <div className="bg-white w-1/2 h-1.5"></div>
+            <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
+            <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div>
           </div>
         </div>
 
         <div className="flex items-center justify-center">
           <div>
             <div
-              className="w-60 h-60 bg-no-repeat mx-auto"
+              className="w-36 h-36 bg-no-repeat mx-auto"
               style={OurMission}
             ></div>
-            <p className="text-xl text-white items-center text-center sm:w-3/5 font-medium mx-auto mt-5">
+            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5">
               To build a team of experienced professionals to assists
               entrepreneurs to convert their dream business by providing
               end-to-end business incorporation and associated services.
@@ -321,7 +321,13 @@ function App() {
       </div>
 
       <div className="bg-[#f6d5dd]">
-        <div className="py-16">
+        <div className="pb-6">
+          <div className=" p-11 w-3/4 mx-auto sm:px-9">
+            <h2 className=" text-5xl font-semibold text-center text-[#560216]">
+              Aims and Aspirations of Medsys
+            </h2>
+            {/* <div className="bg-[#560216] mx-auto mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
+          </div>
           <div className="grid grid-cols-2">
             <div className="grid grid-rows-6 gap-4">
               <button
@@ -420,14 +426,11 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd]">
-        <div className="px-8 py-16">
-          <div
-            className="flex justify-center w-2/3 h-72 mx-auto bg-no-repeat"
-            style={tagline}
-          ></div>
+      <section className="profile container mt-8 w-11/12 sm:w-4/5">
+        <div className="inner mx-auto text-center">
+            <h1 className="sm:text-5xl text-4xl px-9 py-16 text-rose-400">Turn Your Ideas Into Reality With MEDSYS</h1>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

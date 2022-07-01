@@ -32,7 +32,7 @@ const Feedback = ({ setModalOn }) => {
             <Rate rating={rating} onRating={(rate) => setRating(rate)} />
           </div>
 
-          <div className="w-5/6 mx-auto  text-[#560216] text-3xl text-center">
+          <div className="w-5/6 mx-auto  text-[#560216] text-3xl font-semibold text-center">
             Suggestions
           </div>
 
@@ -42,7 +42,7 @@ const Feedback = ({ setModalOn }) => {
 
           <div className="flex flex-col p-1">
             <input
-              className="placeholder: placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
+              className="placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md p-1"
               placeholder="Name"
               type="text"
               name="text"
@@ -51,7 +51,7 @@ const Feedback = ({ setModalOn }) => {
 
           <div className="flex flex-col p-1">
             <input
-              className="placeholder: placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
+              className="placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md p-1"
               placeholder="Email"
               type="email"
               name="email"
@@ -60,16 +60,16 @@ const Feedback = ({ setModalOn }) => {
 
           <div className="flex flex-col p-1">
             <input
-              className="placeholder: placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
+              className="placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md p-1"
               placeholder="Phone Number"
               type="number"
               name="number"
             />
           </div>
 
-          <div className="flex flex-col p-1 mt-4">
+          <div className="flex flex-col p-1">
             <input
-              className="placeholder: placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
+              className=" placeholder:text-slate-700 block bg-white mx-auto w-3/4 rounded-md shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md p-1"
               placeholder="Subject"
               type="text"
               name="text"
@@ -79,7 +79,7 @@ const Feedback = ({ setModalOn }) => {
           <div className="flex flex-col p-1 py-3">
             <textarea
               rows="4"
-              className=" pl-2 placeholder: placeholder:text-slate-600 mx-auto block bg-white w-5/6 rounded-lg shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
+              className=" pl-2 placeholder: placeholder:text-slate-600 mx-auto block bg-white w-3/4 rounded-lg shadow-sm focus:outline-none hover:outline-offset-2 focus:border-[#560216] focus:ring-[#560216] focus:ring-1 sm:text-md"
               placeholder="Write Suggestions..."
               type="text"
               name="text"
@@ -88,7 +88,7 @@ const Feedback = ({ setModalOn }) => {
 
           <div className="text-center p-1 text-lg">
             <button
-              className="w-1/2 sm:w-1/2 py-2 text-center text-white bg-[#560216] font-semibold rounded-md hover:bg-rose-800"
+              className="w-1/2 sm:w-1/3 py-2 text-center text-white bg-[#560216] font-semibold rounded-md hover:bg-rose-800"
               onClick={handleXClick}
             >
               Submit

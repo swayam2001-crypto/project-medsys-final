@@ -104,9 +104,9 @@ export default function Footer() {
 
               <li>
                 <label className="block">
-                  <span className="text-white" onClick={clicked}>
+                  <button className="text-white" onClick={clicked}>
                     Suggestions and Feedback
-                  </span>
+                  </button>
                 </label>
                 {/* {openModal && <Feedback closeModal={setOpenModal}/>} */}
               </li>

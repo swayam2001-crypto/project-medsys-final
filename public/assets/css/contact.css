@@ -117,11 +117,11 @@ section.form .wrapper .left form label{
 section.form .wrapper .left form input{
     height: 40px;
     border: none;
-    border-radius: 20px;
+    border-radius: 12px;
     padding: 0 12px;
     font-size: 15px;
     margin-bottom: 1.5rem;
-    background-color: #eeeaea;
+    background-color: #fff;
     outline: none;
 }
 

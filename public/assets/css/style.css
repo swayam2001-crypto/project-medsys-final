@@ -34,9 +34,7 @@ body {
 
 /* +++++++++++++++++++++++++++ slider ++++++++++++++++++++++++++ */
 .swiper-slide img {
-    width: 99%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     z-index: -100;
 }
 
@@ -170,15 +168,17 @@ section.work .section-heading::after {
 
 section.work .wrapper {
     display: flex;
-    margin: 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 4rem;
+    justify-content: center;
 }
 
 section.work .wrapper .item {
-    background-color: #127912;
+    background-color: #c1625d;
     /* height: 250px; */
     width: 200px;
-    margin-right: 2rem;
+    margin: 0 10px;
     border-radius: 10px;
     padding-top: 20px;
     text-align: center;

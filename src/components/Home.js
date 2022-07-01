@@ -88,8 +88,8 @@ export default function Home() {
             </section>
             {/* <!-- =================Work====================== --> */}
             <section className="work container">
-                <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">How we work?</h1>
-                <div className="wrapper">
+                <h1 className="section-heading text-5xl font-semibold text-center p-7 text-[#560216]">How we work?</h1>
+                <div className="wrapper gap-3">
                     <div className="item">
                         <h5>Fill the form</h5>
                         <div className="item-inner">
@@ -290,30 +290,30 @@ export default function Home() {
             </section> */}
             {/* <!-- ======================Counter======================= --> */}
             <section className="counter container ">
-                <div className="inner w-11/12 mx-auto">
-                    <div className="item">
-                        <div className="text">
-                            <h1>1,000</h1><span>+</span>
+                <div className="inner w-11/12 gap-5 mx-auto">
+                    <div className="item ">
+                        <div className="flex justify-center">
+                            <h1>1000</h1><span>+</span>
                         </div>
-                        <h6>Happy Clients</h6>
+                        <h6 className='text-center'>Happy Clients</h6>
                     </div>
                     <div className="item">
-                        <div className="text">
+                        <div className="flex justify-center">
                             <h1>100</h1><span>+</span>
                         </div>
-                        <h6>Experts Official</h6>
+                        <h6 className='text-center'>Experts Official</h6>
                     </div>
                     <div className="item">
-                        <div className="text">
+                        <div className="flex justify-center">
                             <h1>500</h1><span>+</span>
                         </div>
-                        <h6>Active Projects</h6>
+                        <h6 className='text-center'>Active Projects</h6>
                     </div>
                     <div className="item">
-                        <div className="text">
+                        <div className='flex justify-center'>
                             <h1>15</h1><span>+</span>
                         </div>
-                        <h6>Upcoming Services</h6>
+                        <h6 className='text-center'>Upcoming Services</h6>
                     </div>
                 </div>
             </section>
