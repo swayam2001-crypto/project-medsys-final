@@ -166,16 +166,10 @@ section.work .wrapper {
 }
 
 section.work .wrapper .item {
-<<<<<<< HEAD
-    background-color: #127912;
-    width: 200px;
-    margin:0 10px;
-=======
     background-color: #c1625d;
     /* height: 250px; */
     width: 200px;
     margin: 0 10px;
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
     border-radius: 10px;
     padding-top: 20px;
     text-align: center;
@@ -210,26 +204,6 @@ section.work .wrapper .item:nth-child(4) .item-inner p {
 section.work .wrapper .item:nth-child(5) .item-inner p {
     padding-bottom: 6rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ================clients================= */
 section.clients {
