@@ -133,7 +133,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-2/4 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={WebDev}
@@ -164,7 +164,7 @@ function App() {
           <h2 className=" text-5xl text-[#560216]">App Development</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <p className="text-rose-900 text-xl font-medium my-auto pr-6">
             Create applications tailor-made for your business requirement. From
             digitizing spread sheets to building complex application using
@@ -197,7 +197,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-1/3 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={ECommerce}
@@ -223,7 +223,7 @@ function App() {
           <h2 className=" text-5xl text-[#560216]">Content Writing</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             Content writing is the process of writing, editing, and publishing
             content in a digital format. That content can include blog posts,
@@ -256,7 +256,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-1/3 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={DigitalMarketing}
@@ -284,7 +284,7 @@ function App() {
           <h2 className=" text-5xl text-[#560216]">SEO Consulting</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             If you regularly use Google then you've probably realised that when
             you search for something you don't typically scroll past the first
@@ -316,7 +316,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-1/3 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={GraphicsDesigning}
@@ -348,7 +348,7 @@ function App() {
           <h2 className=" text-5xl text-[#560216]">Branding</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             We don’t belive that Brands are built from advertising anymore. They
             are built from engaging customer experinces. From telling a great
@@ -379,7 +379,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-1/3 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={ProductDev}
@@ -402,7 +402,7 @@ function App() {
           <h2 className=" text-5xl text-[#560216]">Printing Services</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             We specialize in commercial offset printing and digital printing
             services to cover all your needs. Whether you’re looking to promote
@@ -431,7 +431,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-1/3 lg:w-64 h-1.5 ml-auto"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 mx-auto">
           <div
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={SocialMedia}
