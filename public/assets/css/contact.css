@@ -121,7 +121,11 @@ section.form .wrapper .left form input{
     padding: 0 12px;
     font-size: 15px;
     margin-bottom: 1.5rem;
+<<<<<<< HEAD
     background-color: #b4b1b1;
+=======
+    background-color: #fff;
+>>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
     outline: none;
 }
 

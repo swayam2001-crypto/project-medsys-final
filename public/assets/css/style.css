@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #f9f6f6;
+    background-color: #ffe4e6;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Lato', sans-serif;
 }
@@ -35,6 +35,7 @@ body {
 /* +++++++++++++++++++++++++++ slider ++++++++++++++++++++++++++ */
 .swiper-slide img {
     width: 100%;
+    z-index: -100;
 }
 
 /* =================================Popular products =========================== */
@@ -155,27 +156,26 @@ section.work .section-heading {
     margin: auto;
 }
 
-section.work .section-heading::after {
-    content: '';
-    height: 0px;
-    width: 71px;
-    position: absolute;
-    left: 101px;
-    top: 59px;
-    border: 2px solid brown;
-}
 
 section.work .wrapper {
     display: flex;
-    margin: 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 4rem;
     justify-content: center;
 }
 
 section.work .wrapper .item {
+<<<<<<< HEAD
     background-color: #127912;
     width: 200px;
     margin:0 10px;
+=======
+    background-color: #c1625d;
+    /* height: 250px; */
+    width: 200px;
+    margin: 0 10px;
+>>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
     border-radius: 10px;
     padding-top: 20px;
     text-align: center;

@@ -9,6 +9,7 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
+import Marketing from "./components/Marketing/Marketing"
 import { TabTitle } from "./components/Utillity";
 import Partner from "./components/Partner";
 import {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
+          <Route path="/marketingSolutions" element={<Marketing />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

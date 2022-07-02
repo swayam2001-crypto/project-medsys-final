@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-
 import { links } from "./Mylinks";
+import { Link } from "react-router-dom";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
@@ -21,9 +21,9 @@ const NavLinks = () => {
               <div>
                 <div className="absolute top-15 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
-                    <div className="w-4 h-4 left-3 absolute mt-2 bg-[#560216] rotate-45 rounded-sm"></div>
+                    <div className="w-4 h-4 left-3 absolute mt-1  bg-[#560216] border border-l-rose-800 border-t-rose-800 border-r-[#560216] border-b-[#560216] drop-shadow rotate-45 rounded-sm"></div>
                   </div>
-                  <div className="bg-[#560216] p-4 grid grid-flow-col-dense gap-5 rounded-md">
+                  <div className="bg-[#560216] border border-rose-900 drop-shadow p-4 grid grid-flow-col-dense gap-5 rounded-md">
                     {link.sublinks.map((mysublinks) => (
                       <div className="h-full">
                         <h1 className="text-lg font-semibold">
@@ -31,9 +31,9 @@ const NavLinks = () => {
                         </h1>
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-rose-200 my-2">
-                            <a to="/" className="hover:text-rose-50">
+                            <Link to="/" className="hover:text-rose-50">
                               {slink.name}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </div>
@@ -59,7 +59,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 flex justify-between items-center md:pr-0 pr-5"
                   >
                     {slinks.Head}
 
@@ -80,7 +80,7 @@ const NavLinks = () => {
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
-                        <a to={slink.link}>{slink.name}</a>
+                        <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}
                   </div>
