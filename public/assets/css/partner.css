@@ -3,9 +3,17 @@
     max-width: 80%;
     margin: auto;
 }
+section.partner-header-below .inner{
+    width: 100%;
+    background: url('/assets/img/Contact\ Us\ Header\ Image.png');
+}
 
-section.partner-header-below {
-    background: url('./Process Header Image.png');
+section.partner-header-below .inner .container
+{
+    width: 500px;
+    float: left;
+    margin-left: 12rem;
+    margin-top: 2rem;
 }
 
 section.partner-experience .button button{

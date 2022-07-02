@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
 import { TabTitle } from "./components/Utillity";
+import Partner from "./components/Partner";
 import {
   BrowserRouter,
   Routes,
@@ -27,6 +28,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
+          <Route path="/partner" element={<Partner />}></Route>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>

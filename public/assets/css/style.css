@@ -169,13 +169,13 @@ section.work .wrapper {
     display: flex;
     margin: 2rem 0;
     margin-bottom: 4rem;
+    justify-content: center;
 }
 
 section.work .wrapper .item {
     background-color: #127912;
-    /* height: 250px; */
     width: 200px;
-    margin-right: 2rem;
+    margin:0 10px;
     border-radius: 10px;
     padding-top: 20px;
     text-align: center;

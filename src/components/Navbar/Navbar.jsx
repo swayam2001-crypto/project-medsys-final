@@ -10,29 +10,29 @@ const Navbar = () => {
       <div className="flex items-center font-normal text-rose-50 justify-around">
         <div className="z-50 p-2 md:w-auto w-full flex justify-between">
           <img src={Logo} className="md:cursor-pointer h-12" />
-          <div className="text-3xl md:hidden mt-3" onClick={() => setOpen(!open)}>
+          <div className="text-3xl md:hidden mt-3" onClick={() => setOpen(!open)}> 
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
         <ul className="md:flex hidden text-sm items-center gap-2 ">
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
               Home
             </a>
           </li>
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
               About Us
             </a>
           </li>
           <NavLinks />
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
               Marketing Solutions
             </a>
           </li>
           <li>
-            <a to="/" className="py-7 px-3 inline-block uppercase font-semibold">
+            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
               Contact Us
             </a>
           </li>
