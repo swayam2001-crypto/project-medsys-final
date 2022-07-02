@@ -156,15 +156,6 @@ section.work .section-heading {
     margin: auto;
 }
 
-section.work .section-heading::after {
-    content: '';
-    height: 0px;
-    width: 71px;
-    position: absolute;
-    left: 101px;
-    top: 59px;
-    border: 2px solid brown;
-}
 
 section.work .wrapper {
     display: flex;
