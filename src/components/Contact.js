@@ -65,11 +65,7 @@ export default function Contact(props) {
                     </div>
                 </div>
             </section>
-<<<<<<< HEAD
-            <section className="map-below flex justify-center">
-=======
             <section className="map-below w-4/5 mx-auto">
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
                 <div className="right container">
                     <div className="contact">
                         <i className="lni lni-envelope"></i>

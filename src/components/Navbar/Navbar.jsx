@@ -17,39 +17,23 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden text-sm items-center gap-2 ">
           <li>
-<<<<<<< HEAD
-            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
-=======
             <Link to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
               Home
             </Link>
           </li>
           <li>
-<<<<<<< HEAD
-            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
-=======
             <Link to="/AboutUs" className="pr-2 px-3 inline-block uppercase font-semibold">
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
               About Us
             </Link>
           </li>
           <NavLinks />
           <li>
-<<<<<<< HEAD
-            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
-=======
             <Link to="/marketingSolutions" className="pr-2 px-3 inline-block uppercase font-semibold">
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
               Marketing Solutions
             </Link>
           </li>
           <li>
-<<<<<<< HEAD
-            <a to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
-=======
             <Link to="/contact" className="pr-2 px-3 inline-block uppercase font-semibold">
->>>>>>> ead8d680cf096e9c07c0a40b8a219dfc2ac80749
               Contact Us
             </Link>
           </li>

@@ -14,7 +14,7 @@ export default function Process() {
                 </div>
             </section>
             {/* <!-- =====================How we work======================= --> */}
-            <section className="container work">
+            <section className="max-w-6xl m-auto work">
         <h1 className="heading">How We work</h1>
         <div className="timeline-area">
             <div className="single-timeline">

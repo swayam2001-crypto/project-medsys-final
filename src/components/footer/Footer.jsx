@@ -72,7 +72,7 @@ export default function Footer() {
             </h2>
             <ul>
               <li>
-                <Link to="/terms&conditions" className="text-white">
+                <Link to="/process" className="text-white">
                   Our Process
                 </Link>
               </li>
