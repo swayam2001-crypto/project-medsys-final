@@ -92,14 +92,14 @@ function App() {
 
 
 
-      <div className="py-9 px-2">
-        <div className="p-5">
+      <div className="py-11 px-2">
+        <div className="p-9">
           <h2 className=" text-5xl text-[#560216]">
             Business Strategy & Consulting
           </h2>
           <div className="bg-[#560216] mt-1 w-2/4 lg:w-80 h-1.5"></div>
         </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto">
+        <div className="md:grid md:grid-cols-2 w-11/12 gap-24 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             We work with small and big industries across all sectors and domains
             to craft strategies to deliver results. To businesses seeking to
@@ -121,13 +121,13 @@ function App() {
           </p>
 
           <div
-            className="w-72 h-full mx-auto bg-no-repeat my-auto"
+            className="lg:h-96 md:w-full md:h-56 w-full h-72 my-auto bg-no-repeat"
             style={BusinessStrategy}
           ></div>
         </div>
 
 
-        <div className="mt-5 p-5">
+        <div className="mt-7 p-9">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Web Development
           </h2>
@@ -160,7 +160,7 @@ function App() {
           </p>
         </div>
 
-        <div className="mt-5 p-5">
+        <div className="mt-7 p-9">
           <h2 className=" text-5xl text-[#560216]">App Development</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
@@ -191,7 +191,7 @@ function App() {
 
 
 
-        <div className="mt-5 p-5 sm:px-9 ">
+        <div className="mt-7 p-9">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             E-Commerce Website
           </h2>
@@ -219,7 +219,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-5 sm:px-9">
+        <div className="mt-7 p-9">
           <h2 className=" text-5xl text-[#560216]">Content Writing</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
@@ -250,7 +250,7 @@ function App() {
           ></div>
         </div>
 
-        <div className="p-5 sm:px-9 ">
+        <div className="mt-7 p-9 ">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Digital Marketing
           </h2>
@@ -280,7 +280,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-5 sm:px-9">
+        <div className="mt-7 p-9">
           <h2 className=" text-5xl text-[#560216]">SEO Consulting</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
@@ -310,7 +310,7 @@ function App() {
           ></div>
         </div>
 
-        <div className="p-5 sm:px-9 ">
+        <div className="mt-7 p-9 ">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Graphics Designing
           </h2>
@@ -344,7 +344,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-5 sm:px-9">
+        <div className="mt-7 p-9">
           <h2 className=" text-5xl text-[#560216]">Branding</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
@@ -373,7 +373,7 @@ function App() {
           ></div>
         </div>
 
-        <div className="p-5 sm:px-9 ">
+        <div className="mt-7 p-9 ">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Product Development & Design
           </h2>
@@ -398,7 +398,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-5 sm:px-9">
+        <div className="mt-7 p-9">
           <h2 className=" text-5xl text-[#560216]">Printing Services</h2>
           <div className="bg-[#560216] mt-1 w-1/4 lg:w-64 h-1.5"></div>
         </div>
@@ -425,7 +425,7 @@ function App() {
           ></div>
         </div>
 
-        <div className="p-5 sm:px-9 ">
+        <div className="mt-7 p-9 ">
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Social Media Marketing
           </h2>
