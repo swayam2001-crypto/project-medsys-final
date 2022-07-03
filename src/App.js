@@ -9,8 +9,10 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
-import Marketing from "./components/Marketing/Marketing"
+import Marketing from "./components/Marketing/Marketing";
 import { TabTitle } from "./components/Utillity";
+import Copyright from "./components/pages/copyright/Copyright";
+import Producer from "./components/pages/producer/Producer";
 import {
   BrowserRouter,
   Routes,
@@ -32,6 +34,8 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
+          <Route path="/copyright" element={<Copyright />}></Route>
+          <Route path="/producer" element={<Producer />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

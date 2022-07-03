@@ -99,7 +99,7 @@ function App() {
           </h2>
           <div className="bg-[#560216] mt-1 w-2/4 lg:w-80 h-1.5"></div>
         </div>
-        <div className="md:grid md:grid-cols-2 w-11/12 gap-24 mx-auto">
+        <div className="sm:grid sm:grid-cols-2 w-11/12 gap-24 mx-auto">
           <p className="text-rose-900 mb-2 text-xl font-medium my-auto pr-6">
             We work with small and big industries across all sectors and domains
             to craft strategies to deliver results. To businesses seeking to
@@ -107,14 +107,9 @@ function App() {
             hands, Kraft Concept offers its consultative approach. Our team has
             extensive expertise in tools and methodologies and works in tandem
             with clients to develop robust strategies to outshine your work from
-            your competitors.<br></br>
-            <br></br>
-            Our strategy consulting service can help you tap the full potential
-            of your workforce, we also render assistance in innovative
-            approaches to leadership development, performance management, and
-            other aspects of workforce development.
+            your competitors.
             <div className="py-3 flex justify-end ">
-              <button className="text-xl  text-[#560216] bg-rose-300 p-2 w-1/2 sm:w-2/5 mx-auto rounded-md">
+              <button className="text-xl  text-[#560216] bg-rose-300 p-2 w-1/3 sm:w-2/5 mx-auto rounded-md">
                 Get started
               </button>
             </div>
