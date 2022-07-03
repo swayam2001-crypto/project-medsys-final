@@ -17,7 +17,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (

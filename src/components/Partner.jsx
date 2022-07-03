@@ -7,13 +7,12 @@ export default function Partner() {
   return (
     <>
       {/* Section right below the header */}
-      <section className="partner-header-below ">
+      <section className="partner-header-below relative">
         <div className=" inner h-96">
-          <div className="container">
-            <h1 className='text-4xl text-white text-center font-bold p-7'>Join Partnership with Medsys</h1>
+          <div className="container absolute max-w-xl  top-20 right-32">
+            <h1 className='text-4xl text-left text-white font-bold pb-7'>Join Partnership with Medsys</h1>
             <p className=' text-white'>Medsys caters to micro and small businesses in India. Helping start-ups to start their business in any sector and industry. If you deal in B2B products, Medsys partnership can be your business growth enabler.</p></div>
         </div>
-
       </section>
       {/* ++++++++++++++++++++++++++++ message section ++++++++++++++++++++++++ */}
       <section className="message mt-8">
