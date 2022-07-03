@@ -1,5 +1,4 @@
 "react-router-dom";
-
 import Footer from "./components/footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";

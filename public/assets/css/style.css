@@ -8,6 +8,11 @@
     --main: rgb(86 2 22);
 }
 
+*::selection{
+    background-color: rgb(206, 143, 143);
+    color: black;
+}
+
 html {
     scroll-behavior: smooth;
 }
