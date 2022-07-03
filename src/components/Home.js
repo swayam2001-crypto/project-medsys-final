@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay} from "swiper";
+import { TabTitle } from './Utillity';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -8,6 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 export default function Home() {
+    TabTitle("Home - medsysconsultancy.com");
     return (
         <>
             {/* <!-- =================Introduction slider====================== --> */}
