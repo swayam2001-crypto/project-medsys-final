@@ -1,5 +1,4 @@
 "react-router-dom";
-
 import Footer from "./components/footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
@@ -13,12 +12,12 @@ import Marketing from "./components/Marketing/Marketing";
 import { TabTitle } from "./components/Utillity";
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
+import Partner from "./components/Partner";
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (
@@ -30,6 +29,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
+          <Route path="/partner" element={<Partner />}></Route>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>

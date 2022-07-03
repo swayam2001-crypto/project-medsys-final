@@ -72,7 +72,7 @@ export default function Footer() {
             </h2>
             <ul>
               <li>
-                <Link to="/terms&conditions" className="text-white">
+                <Link to="/process" className="text-white">
                   Our Process
                 </Link>
               </li>
@@ -92,7 +92,7 @@ export default function Footer() {
             <h2>CONNECT WITH US</h2>
             <ul>
               <li>
-                <Link to="/" className="text-white">
+                <Link to="/partner" className="text-white">
                   Partner with Us
                 </Link>
               </li>
