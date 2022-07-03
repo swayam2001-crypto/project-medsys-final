@@ -109,13 +109,9 @@ section.popular-products .wrapper .item h6 {
     padding-bottom: 1rem;
 }
 
-
-
 section.popular-products .wrapper div:nth-child(2) h6 {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-
-
 
 /* ============Sustain============== */
 section.sustain .wrapper {
@@ -317,19 +313,19 @@ section.partner .partner-inner .left h6 {
 
 section.partner .partner-inner .left button {
     background-color: rgb(86 2 22);
-    border: 2px solid rgb(146, 5, 38);
+    border: 1px solid rgb(146, 5, 38);
     width: fit-content;
     padding: 10px 11px;
+    color: white;
     margin-left: 5px;
     cursor: pointer;
-}
-
-section.partner .partner-inner .left button h3 {
-    color: white;
+    transition: all .3s ease;
 }
 
 section.partner .partner-inner .left button:hover {
-    background-color: brown;
+    background:transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 /* ====================Profile================== */

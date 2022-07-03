@@ -46,7 +46,7 @@ export default function Home() {
                     <div className="item">
                         <div><img src="/assets/img/NGO Management.svg" alt="" /></div>
                         <h1>NGO Management</h1>
-                        <h6>ITR & GST filling, business & legal compliance</h6>
+                        <h6 className='pb-0'>ITR & GST filling, business & legal compliance</h6>
                         <img className="inner-img" src="/assets/img/NGO Management.png" alt="" />
                     </div>
                     <div className="item">
@@ -249,9 +249,7 @@ export default function Home() {
                         <h1>Let's Partner Up!</h1>
                         <p style={{ fontWeight: "bold" }}>Become our partner and drive your business to the next level.</p>
                         <h6>Connect with us now!</h6>
-                        <button>
-                            <h3>Download Partner Success Stories</h3>
-                        </button>
+                        <button>Download Partner Success Stories</button>
                     </div>
                     <div className="right">
                         <img src="/assets/img/LetsPartnerImg/1.svg" alt="" />
