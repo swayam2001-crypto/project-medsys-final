@@ -11,6 +11,8 @@ import TermsConditions from "./components/TermsConditions";
 import Marketing from "./components/Marketing/Marketing"
 import { TabTitle } from "./components/Utillity";
 import Partner from "./components/Partner";
+import Blog from "./components/ResponsiveBlogTemplate/Blog";
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import {
   BrowserRouter,
   Routes,
@@ -24,6 +26,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>

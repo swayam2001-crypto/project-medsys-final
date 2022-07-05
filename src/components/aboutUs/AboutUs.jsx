@@ -14,8 +14,7 @@ import vision from "./1.png";
 import mission from "./2.png";
 function App() {
   const backgroundImageStyle = {
-    backgroundImage: `url("${mainImage}")`,
-    backgroundSize: "cover",
+    background: `url("${mainImage}") no-repeat center center/cover`,
   };
 
   const imgupcoming1 = {
@@ -167,7 +166,7 @@ function App() {
         <div className="flex items-center justify-center mt-11">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
-            <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div>
+            <div className=" bg-rose-100 mt-1 w-1/2 h-1.5"></div>
           </div>
         </div>
 

@@ -77,7 +77,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/privacypolicy" className="text-white">
+                <Link to="/blog" className="text-white">
                   Blog
                 </Link>
               </li>
@@ -97,9 +97,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-white">
+                <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">
                   Customer Review
-                </Link>
+                </a>
               </li>
 
               <li>
