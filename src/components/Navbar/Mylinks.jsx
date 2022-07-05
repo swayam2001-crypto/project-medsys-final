@@ -57,7 +57,7 @@ export const links = [
         sublink: [
           { name: "FSSAI Registration", link: "/" },
           { name: "FSSAI State License", link: "/" },
-          { name: "FSSAI Central License", link: "/" },
+          { name: "FSSAI Central License", link: "/fssai-central" },
           { name: "FSSAI Renewal", link: "/" },
           { name: "FSSAI Annual Return", link: "/" },
         ],
@@ -115,7 +115,7 @@ export const links = [
           sublink: [
           { name: "Trademark Registration", link: "/" },
           { name: "Patent Registration", link: "/" },
-          { name: "Copyright Registration", link: "/" },
+          { name: "Copyright Registration", link: "/copyright" },
           { name: "Design Registration", link: "/" },
         ],
       },
