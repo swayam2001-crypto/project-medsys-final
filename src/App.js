@@ -13,6 +13,8 @@ import { TabTitle } from "./components/Utillity";
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
+
+import FSSAICentral from './components/pages/services/fssai-central/FSSAICentral';
 import {
   BrowserRouter,
   Routes,
@@ -36,6 +38,7 @@ function App() {
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
+          <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
