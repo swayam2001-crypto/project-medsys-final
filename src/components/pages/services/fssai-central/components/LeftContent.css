@@ -1,11 +1,7 @@
 .content-scroll-view a{
-    text-decoration: underline !important;
-    color: #560216 !important;
-    font-weight: 550 !important;
-}
-ul li{
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    text-decoration: underline;
+    color: #560216;
+    font-weight: 550;
 }
 
 #lefty button{
