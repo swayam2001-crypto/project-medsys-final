@@ -7,8 +7,11 @@ import './Header.css';
 
 function Header(){
     return (<>
-        <div className="application">
-            <div className="application-form-content flex flex-col">
+        <div className="application" style={
+                {display:'flex',
+                marginTop: '0rem',
+            }}>
+            <div className="header-left-content">
                 <h1>Central FSSAI License</h1> <br />
                 <p>The authority issue the Food License to that business who is engaged in activities involving food or related
                     products for human consumption and
@@ -22,7 +25,7 @@ function Header(){
                 </ul>
             </div>
 
-            <div className="application-form flex" id="flexx">
+            <div className="header-right-content">
                 <form action="">
                     <input type="text" name="" placeholder="Full Name" required /> <br />
                     <input type="email" name="" placeholder="Email ID" required /> <br />
