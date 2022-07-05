@@ -14,11 +14,15 @@ import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
+import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+
+
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (
@@ -38,6 +42,7 @@ function App() {
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
+          <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
