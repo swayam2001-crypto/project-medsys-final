@@ -1,8 +1,8 @@
 import React from "react";
 
-import businessLogo from './../assets/business logo.jpeg';
-import smileLogo from './../assets/smile logo.jpeg';
-import starLogo from './../assets/star logo.jpeg';
+import businessLogo from './business logo.jpeg';
+import smileLogo from './smile logo.jpeg';
+import starLogo from './star logo.jpeg';
 import './Header.css';
 
 function Header(){

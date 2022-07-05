@@ -1,10 +1,10 @@
 import React from "react";
 import "./fssai_central.css";
 
-import Header from "./components/Header";
-import LeftContent from "./components/LeftContent";
-import RightContent from "./components/RightContent";
-import {TabTitle} from '../../../Utillity';
+import Header from "./Header";
+import LeftContent from "./LeftContent";
+import RightContent from "./RightContent";
+import {TabTitle} from '../../Utillity';
 
 
 function App() {
