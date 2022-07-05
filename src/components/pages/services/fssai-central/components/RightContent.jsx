@@ -5,7 +5,11 @@ import FAQ from './FAQ';
 
 function RightContent(){
     return (<>
-        <div className="right necessity overview" style={{marginBottom: '100px'}}>
+        <div className="right necessity overview" style={
+            {marginBottom: '100px',
+            display: 'flex',
+            flexDirection: 'column',}}>
+
                 <div className="necessity" id="content-overview">
                     <h1 id="overview">Overview</h1>
                     <br />

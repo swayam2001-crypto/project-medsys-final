@@ -3,11 +3,12 @@ import React from "react";
 import businessLogo from './../assets/business logo.jpeg';
 import smileLogo from './../assets/smile logo.jpeg';
 import starLogo from './../assets/star logo.jpeg';
+import './Header.css';
 
 function Header(){
     return (<>
         <div className="application">
-            <div className="application-form-content flex">
+            <div className="application-form-content flex flex-col">
                 <h1>Central FSSAI License</h1> <br />
                 <p>The authority issue the Food License to that business who is engaged in activities involving food or related
                     products for human consumption and

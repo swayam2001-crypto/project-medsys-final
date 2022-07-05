@@ -31,7 +31,7 @@ function LeftContent(props){
                     </Scrollspy>
                     <br />
                 </div>
-                <button type="submit" id="contact"><a href="#contactus"><b style={{color:'white'}}> CONTACT US </b></a></button>
+                <button type="submit" id="contact" style={{transform: 'transalate(0, 50px)'}}><a href="#contactus"><b style={{color:'white'}}> CONTACT US </b></a></button>
             </div>
     </>);
 }

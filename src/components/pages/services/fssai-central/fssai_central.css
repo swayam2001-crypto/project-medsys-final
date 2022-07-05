@@ -604,8 +604,10 @@ iframe {
   background-position: center 10px;
 }
 #lefty {
+  display: flex;
+  flex-direction: column;
   font-weight: bold;
-  max-height: 290px;
+  height: min-content;
   width: 25rem;
 }
 #lefty a {
