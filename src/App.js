@@ -15,6 +15,7 @@ import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 
 import {
   BrowserRouter,
@@ -43,6 +44,7 @@ function App() {
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
+          <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

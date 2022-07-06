@@ -47,7 +47,7 @@ export const links = [
           { name: "DSC Token", link: "/" },
           { name: "TAN Application", link: "/" },
           { name: "PAN Application", link: "/" },
-          { name: "Drug License", link: "/" },
+          { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/" },
           { name: "RNI Registration", link: "/" },
         ],
