@@ -9,7 +9,7 @@ import smileLogo from './smile logo.jpeg';
 import starLogo from './star logo.jpeg';
 
 function numberToLetter(num) {
-    let ascii = 'a'.charCodeAt(0) + num;
+    let ascii = ('a'.charCodeAt(0)) + num;
     return String.fromCharCode(ascii);
 }
 
@@ -22,7 +22,7 @@ function FAQItem(props) {
                 onClick={() => {
                     toggle(!activated);
                 }}>
-                <span className="accordion__caption" > {numberToLetter(props.number) + ' ' + props.ques}</span>
+                <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
                 <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
@@ -102,9 +102,11 @@ function DSC() {
                     <Scrollspy currentClassName="content-scroll-view" items={[
                         'content-overview',
                         'content',
-                        'content-documents',
-                        'content-regProcess',
-                        'content-faq'
+                        'content-dsc-class',
+                        'content-docs',
+                        'content-process',
+                        'content-help',
+                        'content-faq',
                     ]}>
                         <li> <a className="tabanchor" href="#overview" >Why Is It Required</a></li>
                         <li> <a className="tabanchor" href="#importance">Where Can The DSC Be Used?</a></li>
@@ -121,8 +123,8 @@ function DSC() {
             </div>
 
 
-            <div className="right1 necessity" id="content-overview" style={{fontSize:'1rem'}}>
-                <div className="ICI">
+            <div className="right1 necessity" style={{fontSize:'1rem'}}>
+                <div className="ICI" id="content-overview">
                     <h1 id="overview">Why Is It Required?</h1>
                     <br />
 
@@ -161,7 +163,7 @@ function DSC() {
                 </div>
 
                 <br /><br />
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-dsc-class">
                     <h1>Classes Of DSC </h1>
                     <br />
                     <p>DSC consist of three classes and each class is differentiated as per the level of security:</p>
@@ -191,7 +193,7 @@ function DSC() {
                 <br /><br />
 
 
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-docs">
                     <h1>Documents Required</h1>
                     <br />
 
@@ -219,7 +221,7 @@ function DSC() {
                     </ul>
                 </div>
                 <br /><br />
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-process">
                     <h1>Process Flow</h1>
                     <br />
                     <p> Digital Signature Certificates application procedure comprises of three Stages:</p><br />
@@ -255,7 +257,7 @@ function DSC() {
                 </div>
 
                 <br /><br />
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-help">
                     <h1>How Will We Help You?</h1>
                     <br />
 
@@ -273,34 +275,34 @@ function DSC() {
                     </ul>
                 </div>
                 <br /><br />
-                <div className="faq">
+                <div className="faq" id="content-faq">
                     <h1>FAQs</h1>
                     <br /><br />
 
 
-                    <FAQItem number="0" ques="Is a digital signature legally valid?"
+                    <FAQItem number={0} ques="Is a digital signature legally valid?"
                         answer="Yes, the Information Technology Act of 2000 in India has provided legal validity to the use of digital signature." />
-                    <FAQItem number="1" ques="How long will it take for the application to be
+                    <FAQItem number={1} ques="How long will it take for the application to be
                         processed?"
                         answer="DSC issuance would require approximately 5 business days from the date of applying/application
                         for DSC." />
-                    <FAQItem number="2" ques="Why do I need to submit the documents for obtaining DSC?"
+                    <FAQItem number={2} ques="Why do I need to submit the documents for obtaining DSC?"
                         answer="A Digital Signature Certificate holds almost the same importance in the digital world as your
                         Passport or PAN card holds in the physical world.
                         Therefore, all data displayed on your Digital Signature Certificate needs to be verified before
                         issuing the certificate." />
-                    <FAQItem number="3" ques="Can a person hold two digital signatures, say one for personal
+                    <FAQItem number={3} ques="Can a person hold two digital signatures, say one for personal
                       use and another one for office use?"
                         answer="Yes, a person can hold two Digital Signature Certificates (DSC) and it depends on him which he
                         wants to use for official purposes and which for personal purposes." />
-                    <FAQItem number="4" ques="What will be the validity of the digital signature
+                    <FAQItem number={4} ques="What will be the validity of the digital signature
                       certificate?"
                         answer="You can apply for a digital signature certificate having 1 year or 2 years validity from the date
                         of issuance as per your convenience." />
-                    <FAQItem number="5" ques="Can a digital signature be forged?"
+                    <FAQItem number={5} ques="Can a digital signature be forged?"
                         answer="No, it is secure and has already been applied online for authentication. Thus it is more secure
                         than an ordinary hand-written signature and practically impossible to forge a digital signature.." />
-                    <FAQItem number="6" ques="Still Confused?"
+                    <FAQItem number={6} ques="Still Confused?"
                         answer="Speak to our experts who shall
                         solve all your
                         doubts.
