@@ -1,5 +1,4 @@
 import mainImage from "./3.png";
-// About us page
 import React, { useState } from "react";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import img1 from "./Budding_Entrepreneurs.png";
