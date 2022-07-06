@@ -2,29 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: "Roboto", Times, serif;
   text-transform: none;
   text-decoration: none;
   font-weight: normal;
 }
-h3,
-h1 {
-  font-weight: bold;
-  color: #9d3e55;
-}
 
-h4 {
-  color: #9d3e55;
-  font-size: large;
-  font-weight: bold;
-  padding-left: 4.5rem;
-}
-
-body {
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
 
 .application {
   background-image: url("./Untitled\ design.png");
@@ -452,14 +434,14 @@ body {
 .boxx1 ul {
   padding-left: -2rem;
 }
-.heading {
+.main-content .heading {
   color: #560216;
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 2%;
   padding-left: 30px;
 }
-li {
+.main-content li {
   list-style: none;
   padding-top: 2px;
 }
@@ -471,7 +453,7 @@ li {
   padding-right: 7px;
 }
 
-span {
+.main-content span {
   padding-left: 60px;
 }
 #over {
@@ -554,7 +536,7 @@ span {
 #flexx {
   margin-top: -30px;
 }
-a:active {
+.main-content a:active {
   color: green;
   background-color: transparent;
   text-decoration: underline;
@@ -573,12 +555,12 @@ a:active {
   margin-left: 1rem;
   border: none;
 }
-b {
+.main-content b {
   font-size: large;
   font-weight: bold;
   color: #9d3e55;
 }
-iframe {
+.main-content iframe {
   align-items: center;
   margin-left: 40px;
   width: 800px;
@@ -633,7 +615,7 @@ iframe {
 }
 
 /*inline css*/
-h3 {
+.main-content h3 {
   color: #9d3e55;
   font-size: 1.3rem;
 }
@@ -671,7 +653,6 @@ table {
   margin-right: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 
 :root {
   --color-text: hsl(248, 10%, 40%);
@@ -785,14 +766,14 @@ table {
     font-weight: bold;
     margin-right: 2rem;
   }
-  h1 {
+  .main-content h1 {
     font-size: 3rem;
   }
 
-  h3 {
+  .main-content h3 {
     font-size: 2rem;
   }
-  h4 {
+  .main-content h4 {
     font-size: x-large;
     font-weight: bolder;
   }
@@ -853,13 +834,13 @@ table {
     width: 33rem;
   }
 
-  li {
+  .main-content li {
     font-size: x-large;
   }
-  h1 {
+  .main-content h1 {
     font-size: xx-large;
   }
-  iframe {
+  .main-content iframe {
     margin-left: 3rem;
     width: 37rem;
   }
@@ -1085,7 +1066,7 @@ table {
     width: 20rem;
     height: 20rem;
   }
-  h3 {
+  .main-content h3 {
     font-size: large;
   }
   .faq {

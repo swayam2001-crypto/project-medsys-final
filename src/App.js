@@ -16,6 +16,7 @@ import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 
 import {
   BrowserRouter,
@@ -32,6 +33,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
