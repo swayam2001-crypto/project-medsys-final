@@ -15,6 +15,7 @@ import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 
 import {
   BrowserRouter,

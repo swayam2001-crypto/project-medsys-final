@@ -653,7 +653,6 @@ table {
   margin-right: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 
 :root {
   --color-text: hsl(248, 10%, 40%);
@@ -1067,7 +1066,7 @@ table {
     width: 20rem;
     height: 20rem;
   }
-  h3 {
+  .main-content h3 {
     font-size: large;
   }
   .faq {
