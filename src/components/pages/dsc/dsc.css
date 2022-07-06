@@ -62,7 +62,23 @@
     background-color: white;
 }
 
+.dsc-info{
+    background-color: white;
+    padding: 40px 0 10px 50px;
+}
+
+.dsc-info h1{
+    font-size: 2rem;
+    color: #560216;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
 #activeTableContentaa > ul > li{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+

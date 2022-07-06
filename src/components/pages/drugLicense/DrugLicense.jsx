@@ -43,7 +43,7 @@ function Header() {
                 <h1>Central FSSAI License</h1> <br />
                 <p>The authority issue the Food License to that business who is engaged in activities involving food or related
                     products for human consumption and
-                    lays down the rules & regulations which has to be adhered to by Food Business Operators in India.</p><br />
+                    lays down the rules  regulations which has to be adhered to by Food Business Operators in India.</p><br />
 
                 <br />
                 <ul>
@@ -83,11 +83,19 @@ function DrugLicense() {
                 <div id="activeTableContentaa">
                     <h1>Table Of Contents</h1>
                     <hr />
-                    <p> <a className="tabanchor" href="#overview" >Overview</a></p>
-                    <p> <a className="tabanchor" href="#importance">Forms Of Drug License</a></p>
-                    <p> <a className="tabanchor" href="#documents">Documents Required</a></p>
-                    <p> <a className="tabanchor" href="#attachment">Registration Process</a></p>
-                    <p> <a className="tabanchor" href="#faq" >FAQs</a></p>
+                    <Scrollspy currentClassName="content-scroll-view" items={[
+                        'content-overview',
+                        'content',
+                        'content-documents',
+                        'content-regProcess',
+                        'content-faq'
+                    ]}>
+                    <li> <a className="tabanchor" href="#overview" >Overview</a></li>
+                    <li> <a className="tabanchor" href="#importance">Forms Of Drug License</a></li>
+                    <li> <a className="tabanchor" href="#documents">Documents Required</a></li>
+                    <li> <a className="tabanchor" href="#attachment">Registration Process</a></li>
+                    <li> <a className="tabanchor" href="#faq" >FAQs</a></li>
+                    </Scrollspy>
                     <br />
                 </div>
                 
@@ -96,7 +104,7 @@ function DrugLicense() {
 
 
             <div className="right necessity flex-col" id="overview" style={{fontSize: '1rem', marginBottom: '7rem'}}>
-                <div className="necessity">
+                <div className="necessity" id="content-overview">
                     <h1 id="overview">Overview</h1>
                     <br />
                     <p className="gap">Drug license is an authorization granted by the authority under the Drugs and Cosmetic Act 1940 so as to perform the business of drugs/ medicines or cosmetics.
@@ -134,7 +142,7 @@ function DrugLicense() {
                 </div>
 
                 <br /><br />
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-documents">
                     <h1 >Documents Required</h1>
                     <br />
                     <p>The lists of documents required for Drug License are:-</p>
@@ -156,7 +164,7 @@ function DrugLicense() {
                     </ul>
                 </div>
                 <br /><br />
-                <div className="ICI necessity">
+                <div className="ICI necessity" id="content-regProcess">
                     <h1 >Registration Process</h1>
                     <br />
                     <p>The process for obtaining a Drug license is-</p>
@@ -185,7 +193,7 @@ function DrugLicense() {
 
                 <br /><br />
 
-                <div className="faq">
+                <div className="faq" id="content-faq">
                     <h1>FAQs</h1>
                     <br /><br />
 
@@ -200,7 +208,7 @@ function DrugLicense() {
                         answer="Licenses for the sale of drugs could be granted only at premises which are commercial premises or other premises independent of residence,
                         also recognized as mixed land use. The State drug office issues guidance which may be referred for this purpose." />
                     <FAQItem number={3} ques="What are different types of Licenses Issued for the Pharmaceutical Business?"
-                        answer={"There are various licenses, for instance,\nDrug Manufacturing License Wholesale Drug License,\nRetail Drug License,\nImport of Drugs or Cosmetics\nImport of Medical Equipment\nExport of Medicines etc."} />
+                        answer={`There are various licenses, for instance,\nDrug Manufacturing License Wholesale Drug License,\nRetail Drug License,\nImport of Drugs or Cosmetics\nImport of Medical Equipment\nExport of Medicines etc`} />
                     <FAQItem number={4} ques="What is the main purpose of obtaining a drug license?"
                         answer="The main purpose of the Drugs and Cosmetic Act is to make sure the safety, efficiency, and conformity of the drugs as well as
                         cosmetics sold in India towards the state quality standards for which certain restrictions have been provided under the Act." />

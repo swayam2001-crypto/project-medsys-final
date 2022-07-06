@@ -44,7 +44,7 @@ export const links = [
         Head: "Other Registrations",
         sublink: [
           { name: "ISO Certification", link: "/" },
-          { name: "DSC Token", link: "/" },
+          { name: "DSC Token", link: "/dsc" },
           { name: "TAN Application", link: "/" },
           { name: "PAN Application", link: "/" },
           { name: "Drug License", link: "/drugLicense" },

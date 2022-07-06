@@ -17,6 +17,7 @@ import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import DSC from "./components/pages/dsc/DSC"
 
 import {
   BrowserRouter,
@@ -47,6 +48,7 @@ function App() {
           <Route path="/design" element={<Design />}></Route>
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
           <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
+          <Route path="/dsc" element={ <DSC /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
