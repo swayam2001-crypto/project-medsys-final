@@ -18,6 +18,7 @@ import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import DSC from "./components/pages/dsc/DSC"
+import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 
 import {
   BrowserRouter,
@@ -49,6 +50,7 @@ function App() {
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
           <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
           <Route path="/dsc" element={ <DSC /> }></Route>
+          <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
