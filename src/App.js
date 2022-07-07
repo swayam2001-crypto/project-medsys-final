@@ -20,7 +20,7 @@ import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
 import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
-import DSC from "./components/pages/dsc/DSC"
+import Dsc from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 
@@ -56,7 +56,7 @@ function App() {
           <Route path="/fssai-annual" element={<FSSAIannual />}></Route>
           <Route path="/iec-registration" element={<IECRegistration />}></Route>
           <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
-          <Route path="/dsc" element={ <DSC /> }></Route>
+          <Route path="/dsc" element={ <Dsc /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
         </Routes>
