@@ -75,7 +75,7 @@ export const links = [
           { name: "Society Registration", link: "/" },
           
           { name: "Section 8 Company", link: "/" },
-          { name: "NGO Darpan Registration", link: "/" },
+          { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
       },
       {
