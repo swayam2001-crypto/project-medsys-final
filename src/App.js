@@ -18,6 +18,12 @@ import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
 import FSSAIstate from "./components/pages/fssaiState/FSSAIstate";
 import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
 import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
+import DrugLicense from "./components/pages/drugLicense/DrugLicense";
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import DSC from "./components/pages/dsc/DSC"
+import ISOCertification from "./components/pages/isoCertification/ISOCertification";
+import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
+
 import {
   BrowserRouter,
   Routes,
@@ -33,6 +39,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
@@ -48,6 +55,10 @@ function App() {
           <Route path="/fssai-state" element={<FSSAIstate />}></Route>
           <Route path="/fssai-annual" element={<FSSAIannual />}></Route>
           <Route path="/iec-registration" element={<IECRegistration />}></Route>
+          <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
+          <Route path="/dsc" element={ <DSC /> }></Route>
+          <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
+          <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
