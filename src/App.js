@@ -17,7 +17,7 @@ import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
 import FSSAIstate from "./components/pages/fssaiState/FSSAIstate";
 import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
-
+import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
 import {
   BrowserRouter,
   Routes,
@@ -47,6 +47,7 @@ function App() {
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
           <Route path="/fssai-state" element={<FSSAIstate />}></Route>
           <Route path="/fssai-annual" element={<FSSAIannual />}></Route>
+          <Route path="/iec-registration" element={<IECRegistration />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
