@@ -20,6 +20,7 @@ import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import DSC from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
+import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 
 import {
   BrowserRouter,
@@ -53,6 +54,7 @@ function App() {
           <Route path="/dsc" element={ <DSC /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
+          <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
