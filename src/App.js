@@ -19,6 +19,7 @@ import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import DSC from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
+import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 
 import {
   BrowserRouter,
@@ -51,6 +52,7 @@ function App() {
           <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
           <Route path="/dsc" element={ <DSC /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
+          <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>

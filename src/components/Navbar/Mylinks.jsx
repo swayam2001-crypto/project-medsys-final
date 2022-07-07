@@ -84,7 +84,7 @@ export const links = [
           { name: "12A & 80G Registration", link: "/" },
           { name: "FCRA Registration", link: "/" },
           { name: "CSR-1 Registration", link: "/" },
-          { name: "NGO Advocacy", link: "/" },
+          { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },
       {
