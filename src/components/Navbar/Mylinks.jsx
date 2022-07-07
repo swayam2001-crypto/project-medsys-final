@@ -31,7 +31,7 @@ export const links = [
         Head: "Business Registration & Licenses",
         sublink: [
           { name: "MSME Registration", link: "/" },
-          { name: "Import Export Code [IEC]", link: "/" },
+          { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/" },
@@ -56,10 +56,10 @@ export const links = [
         Head: "Food Licenses",
         sublink: [
           { name: "FSSAI Registration", link: "/" },
-          { name: "FSSAI State License", link: "/" },
+          { name: "FSSAI State License", link: "/fssai-state" },
           { name: "FSSAI Central License", link: "/fssai-central" },
           { name: "FSSAI Renewal", link: "/" },
-          { name: "FSSAI Annual Return", link: "/" },
+          { name: "FSSAI Annual Return", link: "/fssai-annual" },
         ],
       },
     ],

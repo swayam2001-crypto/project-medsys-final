@@ -15,6 +15,9 @@ import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+import FSSAIstate from "./components/pages/fssaiState/FSSAIstate";
+import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
+import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import DSC from "./components/pages/dsc/DSC"
@@ -49,6 +52,9 @@ function App() {
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
+          <Route path="/fssai-state" element={<FSSAIstate />}></Route>
+          <Route path="/fssai-annual" element={<FSSAIannual />}></Route>
+          <Route path="/iec-registration" element={<IECRegistration />}></Route>
           <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
           <Route path="/dsc" element={ <DSC /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
