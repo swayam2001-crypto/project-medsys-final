@@ -15,7 +15,11 @@ import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
 import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import DSC from "./components/pages/dsc/DSC"
+import ISOCertification from "./components/pages/isoCertification/ISOCertification";
+import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 
 import {
   BrowserRouter,
@@ -45,6 +49,10 @@ function App() {
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
           <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
+          <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
+          <Route path="/dsc" element={ <DSC /> }></Route>
+          <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
+          <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>

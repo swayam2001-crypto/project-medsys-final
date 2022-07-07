@@ -43,11 +43,11 @@ export const links = [
       {
         Head: "Other Registrations",
         sublink: [
-          { name: "ISO Certification", link: "/" },
-          { name: "DSC Token", link: "/" },
+          { name: "ISO Certification", link: "/iso-certification" },
+          { name: "DSC Token", link: "/dsc" },
           { name: "TAN Application", link: "/" },
           { name: "PAN Application", link: "/" },
-          { name: "Drug License", link: "/" },
+          { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/" },
           { name: "RNI Registration", link: "/" },
         ],
@@ -84,7 +84,7 @@ export const links = [
           { name: "12A & 80G Registration", link: "/" },
           { name: "FCRA Registration", link: "/" },
           { name: "CSR-1 Registration", link: "/" },
-          { name: "NGO Advocacy", link: "/" },
+          { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },
       {
