@@ -42,7 +42,7 @@ export default function Footer() {
             </ul>
           </div>
           <div class="footer_menu">
-            <h2>POPULAR SERVICES</h2>
+            <h2 className="font-bold text-2xl">POPULAR SERVICES</h2>
             <ul>
               <li>
                 <Link to="/" className="text-white">
@@ -67,7 +67,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer_menu">
-            <h2 className="flex">
+            <h2 className="flex font-bold text-2xl">
               QUICK LINKS<div className="text-[#56021600]">........</div>
             </h2>
             <ul>
@@ -77,19 +77,15 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-white">
+                <Link to="/privacypolicy" className="text-white">
                   Blog
                 </Link>
               </li>
-              {/* <li>
-                <Link to="/refundpolicy" className="text-white">
-                  Refund Policy
-                </Link>
-              </li> */}
+              
             </ul>
           </div>
           <div className="footer_menu">
-            <h2>CONNECT WITH US</h2>
+            <h2 className="font-bold text-2xl">CONNECT WITH US</h2>
             <ul>
               <li>
                 <Link to="/partner" className="text-white">
@@ -97,9 +93,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">
-                  Customer Review
-                </a>
+              <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">Customer Review</a>
+                
               </li>
 
               <li>
