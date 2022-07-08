@@ -13,6 +13,17 @@ import { TabTitle } from "./components/Utillity";
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
+import Design from "./components/pages/Design/Design";
+import FSSAICentral from './components/pages/fassaiCentral/FSSAICentral';
+import FSSAIstate from "./components/pages/fssaiState/FSSAIstate";
+import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
+import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
+import DrugLicense from "./components/pages/drugLicense/DrugLicense";
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import Dsc from "./components/pages/dsc/DSC"
+import ISOCertification from "./components/pages/isoCertification/ISOCertification";
+import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
+import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import {
   BrowserRouter,
   Routes,
