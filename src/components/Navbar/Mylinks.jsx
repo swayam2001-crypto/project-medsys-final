@@ -31,7 +31,7 @@ export const links = [
         Head: "Business Registration & Licenses",
         sublink: [
           { name: "MSME Registration", link: "/" },
-          { name: "Import Export Code [IEC]", link: "/" },
+          { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/" },
@@ -43,11 +43,11 @@ export const links = [
       {
         Head: "Other Registrations",
         sublink: [
-          { name: "ISO Certification", link: "/" },
-          { name: "DSC Token", link: "/" },
+          { name: "ISO Certification", link: "/iso-certification" },
+          { name: "DSC Token", link: "/dsc" },
           { name: "TAN Application", link: "/" },
           { name: "PAN Application", link: "/" },
-          { name: "Drug License", link: "/" },
+          { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/" },
           { name: "RNI Registration", link: "/" },
         ],
@@ -56,10 +56,10 @@ export const links = [
         Head: "Food Licenses",
         sublink: [
           { name: "FSSAI Registration", link: "/" },
-          { name: "FSSAI State License", link: "/" },
+          { name: "FSSAI State License", link: "/fssai-state" },
           { name: "FSSAI Central License", link: "/fssai-central" },
           { name: "FSSAI Renewal", link: "/" },
-          { name: "FSSAI Annual Return", link: "/" },
+          { name: "FSSAI Annual Return", link: "/fssai-annual" },
         ],
       },
     ],
@@ -75,7 +75,7 @@ export const links = [
           { name: "Society Registration", link: "/" },
           
           { name: "Section 8 Company", link: "/" },
-          { name: "NGO Darpan Registration", link: "/" },
+          { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
       },
       {
@@ -84,7 +84,7 @@ export const links = [
           { name: "12A & 80G Registration", link: "/" },
           { name: "FCRA Registration", link: "/" },
           { name: "CSR-1 Registration", link: "/" },
-          { name: "NGO Advocacy", link: "/" },
+          { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },
       {

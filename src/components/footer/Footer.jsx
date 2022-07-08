@@ -42,7 +42,7 @@ export default function Footer() {
             </ul>
           </div>
           <div class="footer_menu">
-            <h2>POPULAR SERVICES</h2>
+          <h2 className="font-semibold">POPULAR SERVICES</h2>
             <ul>
               <li>
                 <Link to="/" className="text-white">
@@ -66,9 +66,9 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="footer_menu">
-            <h2 className="flex">
-              QUICK LINKS<div className="text-[#56021600]">........</div>
+          <div className="footer_menu mb-auto">
+          <h2 className="flex font-semibold">
+              QUICK LINKS<div className="text-[#560216]">..........</div>
             </h2>
             <ul>
               <li>
@@ -88,8 +88,8 @@ export default function Footer() {
               </li> */}
             </ul>
           </div>
-          <div className="footer_menu">
-            <h2>CONNECT WITH US</h2>
+          <div className="footer_menu mb-auto">
+            <h2 className="font-semibold">CONNECT WITH US</h2>
             <ul>
               <li>
                 <Link to="/partner" className="text-white">
