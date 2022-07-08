@@ -36,6 +36,16 @@ function App() {
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
+          <Route path="/design" element={<Design />}></Route>
+          <Route path="/fssai-central" element={ <FSSAICentral /> }></Route>
+          <Route path="/fssai-state" element={<FSSAIstate />}></Route>
+          <Route path="/fssai-annual" element={<FSSAIannual />}></Route>
+          <Route path="/iec-registration" element={<IECRegistration />}></Route>
+          <Route path="/drugLicense" element={ <DrugLicense /> }></Route>
+          <Route path="/dsc" element={ <Dsc /> }></Route>
+          <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
+          <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
+          <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
