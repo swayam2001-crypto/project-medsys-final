@@ -24,14 +24,11 @@ import Dsc from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
-
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-
-
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (
@@ -40,7 +37,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
