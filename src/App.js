@@ -4,7 +4,6 @@ import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
-import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import Career from "./components/Career/Career";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
