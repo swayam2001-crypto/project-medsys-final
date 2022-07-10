@@ -51,7 +51,7 @@ export default function Contact(props) {
 
                     </div>
                     <div className="right">
-                        <img src="/assets/img/Contact us header icon image (300 × 400px).svg" alt="" width="300px" />
+                        <img src="/assets/img/contactHeader/headerImg/4.svg" alt="" idth="300px" />
                     </div>
                 </div>
             </section>

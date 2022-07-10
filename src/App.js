@@ -4,6 +4,8 @@ import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
+import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import Career from "./components/Career/Career";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
@@ -39,6 +41,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/career" element={<Career />}></Route>
           <Route path="/process" element={<Process />}></Route>
           <Route path="/partner" element={<Partner />}></Route>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
